@@ -46,13 +46,13 @@ export default function RegistrarAlquiler({ currentPage = false }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    const formData = new FormData(e.target);
-    const data = Object.fromEntries(formData);
-    console.log(data);
-    const { nombre, apellido, cui, fecha_Nacimiento, telefono } = data;
-    const estado_Civil_Id = data["estado_Civil_Id[id]"];
-    const etnia_Id = data["etnia_Id[id]"];
-    const genero_Id = data["genero_Id[id]"];
+    // const formData = new FormData(e.target);
+    // const data = Object.fromEntries(formData);
+    // console.log(data);
+    // const { nombre, apellido, cui, fecha_Nacimiento, telefono } = data;
+    // const estado_Civil_Id = data["estado_Civil_Id[id]"];
+    // const etnia_Id = data["etnia_Id[id]"];
+    // const genero_Id = data["genero_Id[id]"];
     setLoading(false);
   };
 

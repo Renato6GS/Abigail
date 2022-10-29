@@ -188,6 +188,15 @@ img {
   margin-top: 1rem;
 }
 
+.videoContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video {
+  width: 100%;
+}
+
 /* // .form-control-wrap {
 // 	position: relative;
 // 	display: inline-block;
