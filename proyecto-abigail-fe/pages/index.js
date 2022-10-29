@@ -85,7 +85,12 @@ export default function Home() {
       <section id="quienes-somos" className={styles.container}>
         <div className={styles.videoContainer}>
           <h2 className={styles.titleVideo}>¿Quiénes somos?</h2>
-          <video className={styles.video} src="/landing-page/video/Psicoloweb-3.mp4" controls type="video/mp4"></video>
+          <iframe
+            className={styles.video}
+            src="https://drive.google.com/file/d/1qqTFv6qrniePQMwfJev5IvYtna-ihg8a/preview"
+            width="640"
+            height="700"
+            allow="autoplay"></iframe>
         </div>
       </section>
 
